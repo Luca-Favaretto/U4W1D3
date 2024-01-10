@@ -9,14 +9,13 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Esercizio2");
 
-        Sim sim= new Sim(345454676,0,new Chiamata[5]);
-        Chiamata chiamata1= new Chiamata(10.5,987);
+        Sim sim = new Sim("345 4546765", 0, new Chiamata[5]);
+        Chiamata chiamata1 = new Chiamata(10.5, 987);
         sim.aggiungiChiamate(chiamata1);
         sim.stampaDatiSim();
 
 
     }
-
 
 
 }

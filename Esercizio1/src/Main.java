@@ -9,12 +9,8 @@ public class Main {
         System.out.println("Esercizio 1");
         Rettangolo rettangolo = new Rettangolo(4,5);
         Rettangolo rettangolo1 = new Rettangolo(6,35);
-
-
         stampaRettangolo(rettangolo);
         stampaDueRettangolo(rettangolo,rettangolo1);
-
-
 
     }
 
